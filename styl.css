@@ -1,0 +1,266 @@
+body {
+    display: block;
+    margin: 0px;
+    
+}
+
+
+body {background-color: aqua;
+}
+
+
+
+
+
+.topbar_menu {
+    display: flex;
+    background-color:rgb(32, 191, 209);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+   }
+nav {
+    display:flex;
+    gap: 1rem;
+}
+nav a {
+    color: rgb(8, 58, 108);
+    text-decoration: none;
+}
+
+.titulo {
+text-align: center;
+margin: 2rem;
+padding: 2rem;
+}
+
+/*MENU_CV*/
+.menu_indice {
+    /*display: block;
+    justify-content: center;
+    margin: 3rem;
+    padding: 5rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+        
+
+}
+.enlaces-pag > a {
+    /*display: inline-flex;*/
+    background-color:rgb(32, 191, 209);
+    /*justify-content: space-evenly;*/ 
+    /*align-items: center;*/
+    margin: 2rem;
+    padding: 1rem 2rem;
+   text-decoration: none;
+    /*gap: 2rem;*/
+    /*width: 100%;*/
+}
+.enlace-a > p {
+    display: flex;
+    justify-content: center;
+}
+.datos > p {
+    display: flex;
+    justify-content: center;
+}
+.experiencia_laboral > p {
+    display: flex;
+    justify-content: center;    
+}
+.estudios > p {
+    display: flex;
+    justify-content: center;    
+}
+/*.table, th, td {
+    border: 1px solid #222;
+    justify-content: center;
+    margin: 5rem auto;  
+}*/      
+
+.textporfol {
+    height: 600px;
+    width: 95vw;
+    margin: 2rem;
+    background-image:  url("assets/UOC.jpg");
+    background-size: cover;
+    background-position: center;
+    border-image-width: 1rem;
+    border: 1px solid rgb(97, 81, 164);
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 0 15px 15px rgb(8, 58, 108);
+    }
+
+/*.presentacion-texto {
+    text-align: center;
+ }*/
+ 
+/* .title {
+text-align: center;
+margin: 2rem;
+padding: 2rem;
+}*/
+
+h2 {
+text-align: center;
+margin-top: 2rem;
+/*padding: 2rem;*/
+padding: 2rem;
+}
+   
+.texto-comentario {
+    display: inline-flex;
+    width: 95w;
+    margin: 3rem;
+    gap: .5rem;
+    align-items: center;
+    /*padding: 2rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center ;*/  
+}
+.texto-comentario > img {
+    border-image-width: 1rem;
+    border: 1px solid #222;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 0 15px 15px rgb(8, 58, 108);
+    gap: 3rem;
+    margin: 2rem;
+}
+.cards { 
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+/*flex-direction: row;*/
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #222;
+    width: 20vw;
+    border-radius: 1rem;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 0 0 15px 15px rgb(8, 58, 108);
+}
+   
+.card > p {
+    padding: 1rem;
+}
+
+.card > button {
+    margin: 1rem;
+    padding: .5 1rem;
+
+
+}
+.exper-images {
+    box-shadow: 0 0 15px 15px rgb(8, 58, 108);
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(32, 191, 209);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+    gap: 12rem;  
+}
+.experience > h2 {
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.aficiones > h2 {
+    margin: 2rem;
+    padding: 2rem;
+    justify-content: center;
+
+}
+
+/*h3 {
+    display: inline-flex;
+    align-items: center;
+    
+}
+.afic-images > img {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}*/
+.afic-images {
+    /*display: flex;
+    justify-items: center;
+    border: #222;*/
+    box-shadow: 0 0 15px 15px rgb(8, 58, 108);
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(32, 191, 209);
+    display: flex;
+    margin: 2rem;
+    gap: .5rem;
+    justify-content: space-evenly;
+}
+
+
+.article-afic {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 2rem;
+
+}  
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+        
+}
+.footer-images {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    margin-bottom: 5rem;
+}
+/*CONTACTO PAGE*/
+.image-laptop {
+    display: flex;
+    justify-content: center;
+}
+.hablemos {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2rem;
+}
+.texto-contacto {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2rem;
+}
+.campos {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 4rem;
+    margin-inline-end:25rem;
+}
+.texto-comentario {
+    display: inline-flex;
+    flex-direction: column;
+    justify-items: start;
+    margin: 2rem;
+}
+.hablemos-parte-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 2rem;   
+}
